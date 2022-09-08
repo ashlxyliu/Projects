@@ -49,7 +49,7 @@ def EightQueensIterative(n=8):
                                     board[7] = q
                                     if noConflicts(board, 7):
                                         print (board)
-    return
+    return listOfBoards
 
 
 def EightQueens_returnN(numsol, n=8):
